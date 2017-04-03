@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="text-center"><h1>Our team</h1></div>
+
+
+  <ul class="list-inline text-center team-member">
+    <% data.team.each do |member, infos| %>
+      <li>
+        <h3><%= member.capitalize %></h3>
+        <%= image_tag "#{infos.picture}", class: "avatar-team" %>
+      </li>
+    <% end %>
+  </ul>
+
+  <div class="text-center contact-team">
+    <h2><i class="fa fa-envelope" aria-hidden="true"></i>
+    <%= link_to "contact@airbnb.com", "contact@airbnb.com" %></h2>
+  </div>
+</div>
