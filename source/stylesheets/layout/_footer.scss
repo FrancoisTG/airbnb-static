@@ -1,9 +1,8 @@
 /* Footer design */
 /* Footer design */
 #footer{background-color: #353535;
-color: grey;
-padding: 20px;}
-
-#footer li {padding: 20px;}
-#footer li a {color: grey;}
-#footer li a:hover {color: yellow;}
+        color: grey;
+        padding: 20px;
+        li { padding: 20px;
+          a {color: grey;
+          &:hover {color: yellow;}}}}
